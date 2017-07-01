@@ -1,0 +1,139 @@
+*,
+*:after,
+*:before {
+	box-sizing: border-box;
+}
+s
+html,body {
+	height: 100%;
+	width: 100%;
+	font-family: sans-serif;
+}
+
+
+.wrapper {
+	max-width: 700px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+h1 {
+	text-align: center;
+}
+
+.box {
+	height: 500px;
+	background-color: #e7e7e7;
+	border: 1px solid rgba(0,0,0,0.87);
+}
+
+/* Add Custom CSS Below this line */
+
+#box1{
+	background-color:skyblue;
+}
+#box2
+{
+background-color:orange;
+}
+#box1, #box2 {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+#box1 {
+  margin-top: 20px;
+}
+.wrapper{
+	padding:20px;
+}
+#box1 {
+  margin-bottom: 20px;
+}
+#box1, #box2 {
+  border: 6px solid brown;
+}
+#box1 {
+  width: 200px;
+}
+.col-4 {
+  background-color: #DDD;
+  width: 33.33%;
+  border-right: 1px solid black;
+}
+.wrapper {
+  display: flex;
+}
+/*header
+{
+	background-color:#4267b2;
+	height:30px;
+	margin-bottom:20px; 
+}*/
+/*footer{
+	background-color:rgba(0,0,0,0.87);
+	height:30px;
+	margin-top:20px; 
+}*/
+#wrapper {
+  margin-top:16px;
+  margin-bottom:16px;
+}
+
+#main,
+#menu,
+#sidebar {
+  height: 1200px;
+}
+
+#main,
+#menu, 
+#sidebar{ background-color:#e9ebee;}
+#header{
+    background-color:#4267b2;
+    color:white;
+}
+.white-text{
+	color:white !important;
+	font-family: Curlz MT !important;
+	font-size:20px !important;
+}
+.white-text1{
+	color:white !important;
+	font-family:ALGERIAN !important;
+	font-size:26px !important;
+	color:-white !important;
+}
+#header ul .glyphicon{
+	font-size: 20px;
+}
+.pull-right {
+    float: right;
+    
+}
+.list-heading{
+	padding:15px 15px 0px 15px;
+	background-color:lightgrey;
+	
+	font-family: Monotype Corsiva;
+	font-size:16px;
+	
+}
+.panel-body .glyphicon {
+    margin-left: 10px;
+    margin-right: 4px;
+}
+.text-post{
+	margin-bottom:15px: 
+	margin-top:0px;
+}
+#main{
+	height:3500px;
+}
+}
+.image-post{
+	margin-bottom: 15px;
+}
+#main{
+	overflow: auto;
+}
+
